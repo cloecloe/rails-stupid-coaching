@@ -1,0 +1,19 @@
+<body>
+
+  <h1>Stupid Coaching</h1>
+  <div class="bg-grey">
+    <p><%= params["search"]%></p>
+    <p><em>- You</em></p>
+  </div>
+  <br>
+
+  <div class="bg-grey">
+    <p><%= @answer %></p>
+    <p><em>- Your coach</em></p>
+  </div>
+  <br>
+  <div class="link">
+    <%= link_to "Ask a new question", "/ask" %>
+  </div>
+
+</body>
